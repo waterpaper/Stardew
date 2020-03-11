@@ -1,0 +1,5 @@
+#include "npc_abigail.h"
+#include "npc_emily.h"
+#include "npc_leah.h"
+#include "npc_marnie.h"
+#include "npc_pierre.h"

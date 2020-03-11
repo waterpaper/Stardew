@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{d1806ad6-b9ec-4474-b325-b19e2b93aa9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{fe623664-570b-4b5b-9df2-8d91bbeb7a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{bd825bcd-c35a-46a3-8db4-0fca34c48136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singleton">
+      <UniqueIdentifier>{1e0cae6b-d963-4f62-b7f7-6fccd6db4957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{52ae4080-5d7a-434a-80d7-2bcbc21a302c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{a1287640-14d7-4fa7-885d-8b3e108d9283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="effect">
+      <UniqueIdentifier>{2483cd32-f693-44f3-b744-77d96b541f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loading">
+      <UniqueIdentifier>{8d8d7ae6-5c4f-4b83-af41-e83d717e6e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="progressbar">
+      <UniqueIdentifier>{9528d4b7-4417-4920-8195-684e9eac5429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{6d8bbb68-73a9-4f77-a5ed-19b2b5f95937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="key">
+      <UniqueIdentifier>{833f8f16-9ebc-4232-bc9a-78f0aefe9dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="time">
+      <UniqueIdentifier>{c2098621-1bcb-469f-a759-1657c6eb1120}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{0b9eb4f9-fb27-4e97-830e-0ec81faf3877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player">
+      <UniqueIdentifier>{f4cb8f39-59d4-4915-942a-42b1acc45ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\playerState">
+      <UniqueIdentifier>{dcd7d703-62b7-4898-9a3d-0fb5be13e3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes">
+      <UniqueIdentifier>{a16304ff-095d-45cc-a5f7-0d153d21af20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene">
+      <UniqueIdentifier>{6f0efd95-6801-4ca4-8a92-c57dfde28629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\loadingScene">
+      <UniqueIdentifier>{126279c7-81a3-42df-b56f-e33cb76509ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\titleScene">
+      <UniqueIdentifier>{532289ea-fd52-4394-9ba3-9007d41dc577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\maptoolScene">
+      <UniqueIdentifier>{b5ecf46f-d680-414d-b73d-c784ae7ec25e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\loadGameScene">
+      <UniqueIdentifier>{c7c90ee1-7b93-4dea-bd30-d34b29b887dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\newGameScene">
+      <UniqueIdentifier>{6e215e34-f8b8-4896-bb90-0f78cb21c83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{8fc9d7e1-f397-4345-ba61-f8effbf30b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\home">
+      <UniqueIdentifier>{18be8a31-ac63-4331-bc1c-790141b5526a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{2956a10a-a6b5-4d70-9da4-2658008b9a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\maptool">
+      <UniqueIdentifier>{6014ecc5-8251-4e93-8c5c-94cb897fe811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\tileMap">
+      <UniqueIdentifier>{46bd5e53-d877-4ea1-b97e-0ea093e21253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\maptool\maptool_main">
+      <UniqueIdentifier>{d9aaee0d-9025-4cc7-a8f0-e8b89bd79a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\tileMap\tileMapManager">
+      <UniqueIdentifier>{4996648a-d458-4f44-9b2c-c309f6d2cc79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\tileMap\tileMap">
+      <UniqueIdentifier>{f47685b5-3d81-40e7-b1ed-e07d4a38b688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="camera">
+      <UniqueIdentifier>{5954ea3f-0301-4ace-a4b1-52cff0138996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map\maptool\maptool_sub">
+      <UniqueIdentifier>{57e14def-8cbb-4d7a-ad8f-661050daadfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{fa9c46aa-0cbf-449f-8fa1-95cbdef631a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui">
+      <UniqueIdentifier>{b9fb98f0-f361-48cf-ba9e-da132e2d3e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind">
+      <UniqueIdentifier>{244e511f-be77-413f-811c-ba11684d587c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inventory">
+      <UniqueIdentifier>{ded6e6ab-3d81-4039-a4fe-b7e6e0e83248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameTime">
+      <UniqueIdentifier>{ed0e7d7d-acf3-43d2-b318-bdd8cc86d61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item">
+      <UniqueIdentifier>{d374cf13-fc65-4298-9b8f-3257ba5e799b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\tool">
+      <UniqueIdentifier>{d826255e-e378-40cc-bf9a-1cc6bbb92708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\tool\axe">
+      <UniqueIdentifier>{64030faa-85f3-4edb-bcbe-b94917a0ca73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\tool\hoe">
+      <UniqueIdentifier>{08886921-ec3a-4a9d-a859-20ccad423aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\tool\pickaxe">
+      <UniqueIdentifier>{17abbd64-9291-491d-9def-1e8a5847b05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\tool\scythe">
+      <UniqueIdentifier>{b26da28f-1fd1-49da-b323-cc009bd7e677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\tool\wateringcan">
+      <UniqueIdentifier>{e87e94dc-173b-4cff-8b80-53322b29c98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_general">
+      <UniqueIdentifier>{fb5ce4fa-4a13-44f9-b41b-52b923eb673f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_feeling">
+      <UniqueIdentifier>{00dfa9e4-be54-41fc-85ab-f71fffa2190f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_making">
+      <UniqueIdentifier>{d31b35ca-96fc-44a6-a133-9f6463d69784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_inventory">
+      <UniqueIdentifier>{ec52bfd6-a4f2-4be2-8de1-f1f134cfc214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_exit">
+      <UniqueIdentifier>{6dfd5838-e300-4ad9-9ca5-f61ff441657a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shop">
+      <UniqueIdentifier>{1e8c8a33-f7ac-4fb9-ae15-62fe252f0dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\button">
+      <UniqueIdentifier>{6b348063-77b3-4c49-9202-98514e4a5850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\shapes">
+      <UniqueIdentifier>{3990d9c5-2203-4139-be8c-558aead8cdaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\random">
+      <UniqueIdentifier>{c766a4bf-680d-4230-a640-c50553799ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_shop">
+      <UniqueIdentifier>{750797fb-0506-4d24-98aa-958d78af1024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\seed">
+      <UniqueIdentifier>{728c9e0b-7c70-442f-a75a-f7497ea05d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\food">
+      <UniqueIdentifier>{5e351995-6b32-4a7e-9c12-9125722447d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\farm">
+      <UniqueIdentifier>{24876d34-27ba-444f-91b6-3d8dc53f1599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\road">
+      <UniqueIdentifier>{98f8d016-780f-4422-9eea-e4f3ef22a5f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\town">
+      <UniqueIdentifier>{7dc2e04e-ad4f-479d-af9b-e06e480116f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\shop">
+      <UniqueIdentifier>{1925232b-3336-40a7-9c17-d660caa0faef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\mine">
+      <UniqueIdentifier>{e0336c85-0d88-494d-b796-1b8ad00d871f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\barn">
+      <UniqueIdentifier>{460d65e0-16ef-4d6a-b9d0-dbb232bb9636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\shop\shop">
+      <UniqueIdentifier>{c6f0182b-dbaa-40cd-ba91-fa3b3c3cc747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\shop\animalShop">
+      <UniqueIdentifier>{571a4329-0cc6-4941-b91d-e5f6685c631b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{eadfce29-e789-4928-a75b-14a48918702f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\setting">
+      <UniqueIdentifier>{c3b5d2bf-a205-4f0b-b9a4-2f6298af6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\npc">
+      <UniqueIdentifier>{3b13199a-3783-457a-826c-34dc8a20b91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\npc\setting">
+      <UniqueIdentifier>{37bdd667-2d70-40f0-9ed4-f41cb3f3b3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\npc\kind">
+      <UniqueIdentifier>{c3c38a90-af43-467e-a70d-a7b7849883e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\npc\kind\abigail">
+      <UniqueIdentifier>{5122bfa7-47a6-4775-a8aa-f6e57c601c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\npc\kind\emily">
+      <UniqueIdentifier>{0a6a84fa-c743-4e04-afe9-4b3367ef3c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\npc\kind\marnie">
+      <UniqueIdentifier>{ed00a4d3-4db6-4639-a262-da437b88604d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\npc\kind\leah">
+      <UniqueIdentifier>{8b82f01d-f29f-4ade-84c4-247d91b12a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\npc\kind\pierre">
+      <UniqueIdentifier>{cb1cf811-2837-42ca-baf6-a97fb7c660bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_conversation">
+      <UniqueIdentifier>{2e36cf57-71dd-4202-b1c0-bd340953729c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\setting">
+      <UniqueIdentifier>{6d3202ea-3ec2-474f-a40c-dbb88cc0e29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\playerAvatar">
+      <UniqueIdentifier>{1183638b-8caa-43d9-aeb4-a2e867b14723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\playerEquipment">
+      <UniqueIdentifier>{dfa15137-9105-4b06-996e-bbf1cce3e095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="player\setting">
+      <UniqueIdentifier>{18e1f802-c7a3-4fb9-9797-6dfe1555576a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_selectDialog">
+      <UniqueIdentifier>{a833e77f-6212-471c-b7db-2e28f588e71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="farm">
+      <UniqueIdentifier>{35e3e80b-a867-4c95-8c08-5bc96942d328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\crops">
+      <UniqueIdentifier>{55db2a8a-9431-487c-bfdf-d3e0a64a12d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_animalshop">
+      <UniqueIdentifier>{6e50dcf7-4599-4766-8624-04ef37a87969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animal">
+      <UniqueIdentifier>{ba757465-02e8-454c-92fe-64e8a4b9793e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\animalitem">
+      <UniqueIdentifier>{44a8a5bf-a46d-4a4e-9de6-188f8b0bb05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\scenes\ingameScene\coop">
+      <UniqueIdentifier>{1696f559-a819-46b5-895a-91d039c3c96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_save">
+      <UniqueIdentifier>{311f7853-925f-452e-9ee1-c9c2d1ee7127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="save">
+      <UniqueIdentifier>{c85a21b6-a425-4beb-b986-57980b1c897f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\rock">
+      <UniqueIdentifier>{32833ab0-8c72-4617-a9ff-c9a6921650e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="item\material">
+      <UniqueIdentifier>{8c67fd07-754d-4fe6-945d-d2c5d5bad5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ui\uikind\ui_minimap">
+      <UniqueIdentifier>{47294f23-794e-4b18-8bb2-81a673f9a7ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>key</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="animationManager.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>effect</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>loading</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>progressbar</Filter>
+    </ClInclude>
+    <ClInclude Include="UTIL.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>time</Filter>
+    </ClInclude>
+    <ClInclude Include="playerState.h">
+      <Filter>player\playerState</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>scene\scenes\titleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>scene\scenes\loadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="newGameScene.h">
+      <Filter>scene\scenes\newGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="newGame.h">
+      <Filter>scene\scenes\newGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="inputManager.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="homeScene.h">
+      <Filter>scene\scenes\ingameScene\home</Filter>
+    </ClInclude>
+    <ClInclude Include="maptoolScene.h">
+      <Filter>scene\scenes\maptoolScene</Filter>
+    </ClInclude>
+    <ClInclude Include="tile_Info.h">
+      <Filter>map\tileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="maptool_main.h">
+      <Filter>map\maptool\maptool_main</Filter>
+    </ClInclude>
+    <ClInclude Include="tileMapManager.h">
+      <Filter>map\tileMap\tileMapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="tileMap.h">
+      <Filter>map\tileMap\tileMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManger.h">
+      <Filter>camera</Filter>
+    </ClInclude>
+    <ClInclude Include="maptool_sub.h">
+      <Filter>map\maptool\maptool_sub</Filter>
+    </ClInclude>
+    <ClInclude Include="subWIndow.h">
+      <Filter>map\maptool\maptool_sub</Filter>
+    </ClInclude>
+    <ClInclude Include="uiManager.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>ui\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="all_Ui.h">
+      <Filter>ui\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.h">
+      <Filter>inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="inventoryManager.h">
+      <Filter>inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTime.h">
+      <Filter>gameTime</Filter>
+    </ClInclude>
+    <ClInclude Include="gameTimeManager.h">
+      <Filter>gameTime</Filter>
+    </ClInclude>
+    <ClInclude Include="item_tool_axe.h">
+      <Filter>item\tool\axe</Filter>
+    </ClInclude>
+    <ClInclude Include="item_tool_hoe.h">
+      <Filter>item\tool\hoe</Filter>
+    </ClInclude>
+    <ClInclude Include="item_tool_pickaxe.h">
+      <Filter>item\tool\pickaxe</Filter>
+    </ClInclude>
+    <ClInclude Include="item_tool_scythe.h">
+      <Filter>item\tool\scythe</Filter>
+    </ClInclude>
+    <ClInclude Include="item_tool_wateringcan.h">
+      <Filter>item\tool\wateringcan</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_general.h">
+      <Filter>ui\ui\uikind\ui_general</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_feeling.h">
+      <Filter>ui\ui\uikind\ui_feeling</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_making.h">
+      <Filter>ui\ui\uikind\ui_making</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_inventory.h">
+      <Filter>ui\ui\uikind\ui_inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_exit.h">
+      <Filter>ui\ui\uikind\ui_exit</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.h">
+      <Filter>shop</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>헤더 파일\button</Filter>
+    </ClInclude>
+    <ClInclude Include="drawShapesFunction.h">
+      <Filter>헤더 파일\shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일\random</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_shop.h">
+      <Filter>ui\ui\uikind\ui_shop</Filter>
+    </ClInclude>
+    <ClInclude Include="item_seed.h">
+      <Filter>item\seed</Filter>
+    </ClInclude>
+    <ClInclude Include="item_food.h">
+      <Filter>item\food</Filter>
+    </ClInclude>
+    <ClInclude Include="farmScene.h">
+      <Filter>scene\scenes\ingameScene\farm</Filter>
+    </ClInclude>
+    <ClInclude Include="homeToTownRoadScene.h">
+      <Filter>scene\scenes\ingameScene\road</Filter>
+    </ClInclude>
+    <ClInclude Include="townScene.h">
+      <Filter>scene\scenes\ingameScene\town</Filter>
+    </ClInclude>
+    <ClInclude Include="shopScene.h">
+      <Filter>scene\scenes\ingameScene\shop\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneAll.h">
+      <Filter>scene\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>scene\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="animalShopScene.h">
+      <Filter>scene\scenes\ingameScene\shop\animalShop</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>character\npc\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="npc_pierre.h">
+      <Filter>character\npc\kind\pierre</Filter>
+    </ClInclude>
+    <ClInclude Include="npcManager.h">
+      <Filter>character\npc\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="allNpc.h">
+      <Filter>character\npc\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_conversation.h">
+      <Filter>ui\ui\uikind\ui_conversation</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>item\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="all_Item.h">
+      <Filter>item\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>item\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="npc_leah.h">
+      <Filter>character\npc\kind\leah</Filter>
+    </ClInclude>
+    <ClInclude Include="npc_marnie.h">
+      <Filter>character\npc\kind\marnie</Filter>
+    </ClInclude>
+    <ClInclude Include="npc_emily.h">
+      <Filter>character\npc\kind\emily</Filter>
+    </ClInclude>
+    <ClInclude Include="npc_abigail.h">
+      <Filter>character\npc\kind\abigail</Filter>
+    </ClInclude>
+    <ClInclude Include="barnScene.h">
+      <Filter>scene\scenes\ingameScene\barn</Filter>
+    </ClInclude>
+    <ClInclude Include="playerAvatar.h">
+      <Filter>player\playerAvatar</Filter>
+    </ClInclude>
+    <ClInclude Include="playerEquipment.h">
+      <Filter>player\playerEquipment</Filter>
+    </ClInclude>
+    <ClInclude Include="playerManager.h">
+      <Filter>player\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>player\setting</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_selectDialog.h">
+      <Filter>ui\ui\uikind\ui_selectDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="farm.h">
+      <Filter>farm</Filter>
+    </ClInclude>
+    <ClInclude Include="farmManager.h">
+      <Filter>farm</Filter>
+    </ClInclude>
+    <ClInclude Include="item_crops.h">
+      <Filter>item\crops</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_animalshop.h">
+      <Filter>ui\ui\uikind\ui_animalshop</Filter>
+    </ClInclude>
+    <ClInclude Include="animal.h">
+      <Filter>animal</Filter>
+    </ClInclude>
+    <ClInclude Include="animalManager.h">
+      <Filter>animal</Filter>
+    </ClInclude>
+    <ClInclude Include="item_animalitem.h">
+      <Filter>item\animalitem</Filter>
+    </ClInclude>
+    <ClInclude Include="coopScene.h">
+      <Filter>scene\scenes\ingameScene\coop</Filter>
+    </ClInclude>
+    <ClInclude Include="loadGameScene.h">
+      <Filter>scene\scenes\loadGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="loadGame.h">
+      <Filter>scene\scenes\loadGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_save.h">
+      <Filter>ui\ui\uikind\ui_save</Filter>
+    </ClInclude>
+    <ClInclude Include="gameSave.h">
+      <Filter>save</Filter>
+    </ClInclude>
+    <ClInclude Include="item_rock.h">
+      <Filter>item\rock</Filter>
+    </ClInclude>
+    <ClInclude Include="item_material.h">
+      <Filter>item\material</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_minimap.h">
+      <Filter>ui\ui\uikind\ui_minimap</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>key</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="animationManager.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>effect</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>loading</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>progressbar</Filter>
+    </ClCompile>
+    <ClCompile Include="UTIL.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>time</Filter>
+    </ClCompile>
+    <ClCompile Include="playerState.cpp">
+      <Filter>player\playerState</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>scene\scenes\titleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>scene\scenes\loadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="newGameScene.cpp">
+      <Filter>scene\scenes\newGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="newGame.cpp">
+      <Filter>scene\scenes\newGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="inputManager.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="homeScene.cpp">
+      <Filter>scene\scenes\ingameScene\home</Filter>
+    </ClCompile>
+    <ClCompile Include="maptoolScene.cpp">
+      <Filter>scene\scenes\maptoolScene</Filter>
+    </ClCompile>
+    <ClCompile Include="maptool_main.cpp">
+      <Filter>map\maptool\maptool_main</Filter>
+    </ClCompile>
+    <ClCompile Include="tileMapManager.cpp">
+      <Filter>map\tileMap\tileMapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="tileMap.cpp">
+      <Filter>map\tileMap\tileMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManger.cpp">
+      <Filter>camera</Filter>
+    </ClCompile>
+    <ClCompile Include="maptool_sub.cpp">
+      <Filter>map\maptool\maptool_sub</Filter>
+    </ClCompile>
+    <ClCompile Include="subWIndow.cpp">
+      <Filter>map\maptool\maptool_sub</Filter>
+    </ClCompile>
+    <ClCompile Include="uiManager.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>ui\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="inventoryManager.cpp">
+      <Filter>inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTime.cpp">
+      <Filter>gameTime</Filter>
+    </ClCompile>
+    <ClCompile Include="gameTimeManager.cpp">
+      <Filter>gameTime</Filter>
+    </ClCompile>
+    <ClCompile Include="item_tool_axe.cpp">
+      <Filter>item\tool\axe</Filter>
+    </ClCompile>
+    <ClCompile Include="item_tool_hoe.cpp">
+      <Filter>item\tool\hoe</Filter>
+    </ClCompile>
+    <ClCompile Include="item_tool_pickaxe.cpp">
+      <Filter>item\tool\pickaxe</Filter>
+    </ClCompile>
+    <ClCompile Include="item_tool_scythe.cpp">
+      <Filter>item\tool\scythe</Filter>
+    </ClCompile>
+    <ClCompile Include="item_tool_wateringcan.cpp">
+      <Filter>item\tool\wateringcan</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_general.cpp">
+      <Filter>ui\ui\uikind\ui_general</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_feeling.cpp">
+      <Filter>ui\ui\uikind\ui_feeling</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_making.cpp">
+      <Filter>ui\ui\uikind\ui_making</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_inventory.cpp">
+      <Filter>ui\ui\uikind\ui_inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_exit.cpp">
+      <Filter>ui\ui\uikind\ui_exit</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>shop</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_shop.cpp">
+      <Filter>ui\ui\uikind\ui_shop</Filter>
+    </ClCompile>
+    <ClCompile Include="item_seed.cpp">
+      <Filter>item\seed</Filter>
+    </ClCompile>
+    <ClCompile Include="item_food.cpp">
+      <Filter>item\food</Filter>
+    </ClCompile>
+    <ClCompile Include="farmScene.cpp">
+      <Filter>scene\scenes\ingameScene\farm</Filter>
+    </ClCompile>
+    <ClCompile Include="homeToTownRoadScene.cpp">
+      <Filter>scene\scenes\ingameScene\road</Filter>
+    </ClCompile>
+    <ClCompile Include="townScene.cpp">
+      <Filter>scene\scenes\ingameScene\town</Filter>
+    </ClCompile>
+    <ClCompile Include="shopScene.cpp">
+      <Filter>scene\scenes\ingameScene\shop\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>scene\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>scene\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="animalShopScene.cpp">
+      <Filter>scene\scenes\ingameScene\shop\animalShop</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.cpp">
+      <Filter>character\npc\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="npc_pierre.cpp">
+      <Filter>character\npc\kind\pierre</Filter>
+    </ClCompile>
+    <ClCompile Include="npcManager.cpp">
+      <Filter>character\npc\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_conversation.cpp">
+      <Filter>ui\ui\uikind\ui_conversation</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>item\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>item\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="npc_leah.cpp">
+      <Filter>character\npc\kind\leah</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="npc_marnie.cpp">
+      <Filter>character\npc\kind\marnie</Filter>
+    </ClCompile>
+    <ClCompile Include="npc_emily.cpp">
+      <Filter>character\npc\kind\emily</Filter>
+    </ClCompile>
+    <ClCompile Include="npc_abigail.cpp">
+      <Filter>character\npc\kind\abigail</Filter>
+    </ClCompile>
+    <ClCompile Include="barnScene.cpp">
+      <Filter>scene\scenes\ingameScene\barn</Filter>
+    </ClCompile>
+    <ClCompile Include="playerAvatar.cpp">
+      <Filter>player\playerAvatar</Filter>
+    </ClCompile>
+    <ClCompile Include="playerEquipment.cpp">
+      <Filter>player\playerEquipment</Filter>
+    </ClCompile>
+    <ClCompile Include="playerManager.cpp">
+      <Filter>player\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>player\setting</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_selectDialog.cpp">
+      <Filter>ui\ui\uikind\ui_selectDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="farm.cpp">
+      <Filter>farm</Filter>
+    </ClCompile>
+    <ClCompile Include="farmManager.cpp">
+      <Filter>farm</Filter>
+    </ClCompile>
+    <ClCompile Include="item_crops.cpp">
+      <Filter>item\crops</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_animalshop.cpp">
+      <Filter>ui\ui\uikind\ui_animalshop</Filter>
+    </ClCompile>
+    <ClCompile Include="animal.cpp">
+      <Filter>animal</Filter>
+    </ClCompile>
+    <ClCompile Include="animalManager.cpp">
+      <Filter>animal</Filter>
+    </ClCompile>
+    <ClCompile Include="item_animalitem.cpp">
+      <Filter>item\animalitem</Filter>
+    </ClCompile>
+    <ClCompile Include="coopScene.cpp">
+      <Filter>scene\scenes\ingameScene\coop</Filter>
+    </ClCompile>
+    <ClCompile Include="loadGameScene.cpp">
+      <Filter>scene\scenes\loadGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="loadGame.cpp">
+      <Filter>scene\scenes\loadGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_save.cpp">
+      <Filter>ui\ui\uikind\ui_save</Filter>
+    </ClCompile>
+    <ClCompile Include="gameSave.cpp">
+      <Filter>save</Filter>
+    </ClCompile>
+    <ClCompile Include="item_rock.cpp">
+      <Filter>item\rock</Filter>
+    </ClCompile>
+    <ClCompile Include="item_material.cpp">
+      <Filter>item\material</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_minimap.cpp">
+      <Filter>ui\ui\uikind\ui_minimap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StardewValley_Api.rc">
+      <Filter>소스 파일\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>소스 파일\리소스 파일</Filter>
+    </Image>
+    <Image Include="StardewValley_Api.ico">
+      <Filter>소스 파일\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
